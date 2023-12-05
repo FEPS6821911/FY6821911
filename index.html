@@ -194,8 +194,8 @@ IEEE Transactions on Geoscience and Remote sensing,44, (11), 3363.
 
 
       <div class="button-container">
-        <button class="button" oneclick="prevSlide()">Previous</button>
-        <button class="button" oneclick="nextSlide()">Next</button>
+        <button class="button" onclick="prevSlide()">Previous</button>
+        <button class="button" onclick="nextSlide()">Next</button>
       </div>
 
       <div class="slide-number-container">
@@ -206,14 +206,11 @@ IEEE Transactions on Geoscience and Remote sensing,44, (11), 3363.
       </div>
       
     <style>
-     
       #slide-container {
         text-align: center;
         position: relative;
       }
-
-
-        .button container {
+      .button container {
           position: absolute;
           bottom: 0;
           left: 50%;
@@ -221,9 +218,9 @@ IEEE Transactions on Geoscience and Remote sensing,44, (11), 3363.
           margin-botttom: -100px;
         }
 
-        .button{
+      .button {
           padding: 10px 20px;
-          background-colour: #4CAF50;
+          background-color: #4CAF50 ;
           color: white;
           border: none;
           border-radius: 5px;
@@ -232,7 +229,7 @@ IEEE Transactions on Geoscience and Remote sensing,44, (11), 3363.
           margin: 0 5px;
         }
       
-        .slide-number-container {
+      .slide-number-container {
           position: absolute;
           bottom: 0;
           left: 50%;
